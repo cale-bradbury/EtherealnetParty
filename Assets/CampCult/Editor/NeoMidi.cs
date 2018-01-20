@@ -7,6 +7,7 @@ public class NeoMidi : EditorWindow
     MidiInput input;
     NeoMidiManager manager;
     Vector2 scrollPos = Vector2.zero;
+    static GameObject midi;
 
     [MenuItem("CampCult/NeoMidi %_m")]
     static void Init()
@@ -15,7 +16,36 @@ public class NeoMidi : EditorWindow
         m.input = FindObjectOfType<MidiInput>();
         m.manager = FindObjectOfType<NeoMidiManager>();
         if (m.manager == null)
-            Debug.LogWarning("NO NeoMidiManager found in scene");
+        {
+            if(midi == null)
+            {
+                if(m.input != null)
+                {
+                    midi = m.input.gameObject;
+                }else
+                {
+                    midi = new GameObject("Midi");
+                }
+            }
+            Debug.LogWarning("No NeoMidiManager found in scene, adding on " + midi.name +" GameObject");
+            m.manager = midi.AddComponent<NeoMidiManager>();
+        }
+        if(m.input == null)
+        {
+            if (midi == null)
+            {
+                if (m.manager != null)
+                {
+                    midi = m.manager.gameObject;
+                }
+                else
+                {
+                    midi = new GameObject("Midi");
+                }
+            }
+            Debug.LogWarning("No NeoMidiManager found in scene, adding on " + midi.name + " GameObject");
+            m.input = midi.AddComponent<MidiInput>();
+        }
     }
 
     void OnGUI()
