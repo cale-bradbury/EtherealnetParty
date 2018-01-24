@@ -101,7 +101,7 @@ public class MidiStack
         }
     }
     public bool open = true;
-    public float OnGUI(Rect r)
+    public Vector2 OnGUI(Rect r)
     {
         if (open)
         {
@@ -124,7 +124,7 @@ public class MidiStack
                 s = modules[0].floatOutput.obj.name + " " + modules[0].floatOutput.varName;
             }
             GUI.Label(new Rect(r.x, r.y + 20, 20, 200), Utils.VerticalText(s));
-            return 20;
+            return new Vector2(20, 200);
         }
         GUI.Label(new Rect(r.x+20, r.y, r.width * .5f-20, 20), "name");
         friendlyName = GUI.TextField(new Rect(r.x+ r.width * .5f, r.y, r.width*.5f, 20), friendlyName);
@@ -176,8 +176,9 @@ public class MidiStack
                 manager.stacks[i].index = i;
             }
         }
+        moduleRect.y += 20;
 #endif
-        return 200;
+        return new Vector2(200, moduleRect.y);
     }
 }
 [System.Serializable]
