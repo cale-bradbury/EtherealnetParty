@@ -200,7 +200,7 @@ public class MidiModule
     public int index;
 
     public bool hasCurve = true;
-    public AnimationCurve curve = new AnimationCurve();
+    public AnimationCurve curve = AnimationCurve.EaseInOut(0, 0, 1, 1);
     public Vector2 minmax = new Vector2(0, 1);
     public Gradient gradient;
     public CCReflectFloat floatOutput = new CCReflectFloat();
