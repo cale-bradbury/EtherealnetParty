@@ -42954,7 +42954,7 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1973472198339924}
-  m_LocalRotation: {x: -0.1290999, y: 0.23254457, z: -0.1973409, w: -0.9435639}
+  m_LocalRotation: {x: -0.12194377, y: 0.2340338, z: -0.19557254, w: -0.9445154}
   m_LocalPosition: {x: 5.402, y: 4.463, z: -0.987}
   m_LocalScale: {x: 0.009999999, y: 0.0100000035, z: 0.010000002}
   m_Children:
@@ -42978,7 +42978,7 @@ Transform:
   - {fileID: 4770807575104220}
   m_Father: {fileID: 4324444728675238}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 19.597, y: -24.314001, z: 19.364}
+  m_LocalEulerAnglesHint: {x: 18.778002, y: -24.618002, z: 19.264002}
 --- !u!4 &4837954466679012
 Transform:
   m_ObjectHideFlags: 1
@@ -94989,12 +94989,12 @@ MonoBehaviour:
   m_Z: 1
   m_NearClip: 0.1
   m_FarClipMax: 20
-  m_GlobalDensityMult: 1.04
+  m_GlobalDensityMult: 0.77
   m_ConstantFog: 5.54
   m_HeightFogAmount: 2.11
   m_HeightFogExponent: 1.5
   m_HeightFogOffset: 3.03
-  m_NoiseFogAmount: 0.178
+  m_NoiseFogAmount: 0.4
   m_NoiseFogScale: 3.84
   m_Wind: {fileID: 114573836979841150}
   m_Anisotropy: 0
@@ -95411,7 +95411,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ff26db721962cdf4a8edcdfa9a767d2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  profile: {fileID: 11400000, guid: 8e328288985adf8428e42003bee946c4, type: 2}
+  profile: {fileID: 11400000, guid: cea612e886a35412cb675bb85a6e0a4f, type: 2}
 --- !u!114 &114409944782805780
 MonoBehaviour:
   m_ObjectHideFlags: 1
