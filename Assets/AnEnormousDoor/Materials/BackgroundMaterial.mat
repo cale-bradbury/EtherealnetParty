@@ -60,7 +60,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _BumpScale: 1
-    - _Curve: 0.21037874
+    - _Curve: 0.081351876
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
