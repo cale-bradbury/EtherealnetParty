@@ -1,0 +1,5514 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1274509814961518}
+  m_IsPrefabParent: 1
+--- !u!1 &1034139644754922
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 224982181212558658}
+  m_Layer: 5
+  m_Name: audio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1078507403528788
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4463404337853654}
+  - component: {fileID: 33739652907882686}
+  - component: {fileID: 23750331457896522}
+  m_Layer: 5
+  m_Name: audio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1101049188400300
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4298769675953296}
+  - component: {fileID: 20753444516928880}
+  - component: {fileID: 92709787753573510}
+  - component: {fileID: 124206383835986736}
+  - component: {fileID: 114823841189383452}
+  - component: {fileID: 114248320836909914}
+  - component: {fileID: 114505074378477286}
+  - component: {fileID: 114442279896810062}
+  - component: {fileID: 114066462207503314}
+  - component: {fileID: 114070890243302236}
+  - component: {fileID: 114214377027463472}
+  - component: {fileID: 114804078113822198}
+  - component: {fileID: 114647731191079912}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1135639294059900
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 224643419320117846}
+  m_Layer: 5
+  m_Name: info
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1160728200524664
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4705216597762724}
+  - component: {fileID: 33979255739345572}
+  - component: {fileID: 23942068705050910}
+  m_Layer: 5
+  m_Name: pwyc
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1185103595136202
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4974066659158432}
+  - component: {fileID: 33439534682982832}
+  - component: {fileID: 23716568507124646}
+  m_Layer: 5
+  m_Name: visual
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1188550252731130
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4782321343598362}
+  - component: {fileID: 33416695957565884}
+  - component: {fileID: 64932347843805630}
+  - component: {fileID: 23572029026303046}
+  m_Layer: 0
+  m_Name: Quad
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &1203459165818484
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4598168394843456}
+  - component: {fileID: 108508548887832694}
+  m_Layer: 0
+  m_Name: Directional Light (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1220807296350526
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4474995042245082}
+  - component: {fileID: 33030087078450302}
+  - component: {fileID: 23219738805491618}
+  - component: {fileID: 114328919238453598}
+  m_Layer: 0
+  m_Name: cone_full
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1242642576374770
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 224495271305516692}
+  m_Layer: 5
+  m_Name: visual
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1244504479353962
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 224546530486469534}
+  - component: {fileID: 223621082930270250}
+  - component: {fileID: 114531197692388438}
+  - component: {fileID: 114636652511409932}
+  - component: {fileID: 114791845200699922}
+  - component: {fileID: 114314278498427772}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!1 &1267744808375900
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4805633657048834}
+  - component: {fileID: 33224984601934950}
+  - component: {fileID: 23909588004683458}
+  m_Layer: 5
+  m_Name: modulating mansion
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1274509814961518
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4651544202260136}
+  m_Layer: 0
+  m_Name: Cale
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1285275150055650
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4734565058493604}
+  m_Layer: 0
+  m_Name: selector
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1337821458611496
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4044143367388800}
+  - component: {fileID: 108013493600518648}
+  m_Layer: 0
+  m_Name: Directional Light (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1367823524653958
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4607117930824714}
+  - component: {fileID: 33330979660038836}
+  - component: {fileID: 23466661207695580}
+  m_Layer: 5
+  m_Name: cmpst
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1375469875886046
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4167627593524762}
+  - component: {fileID: 33692412608816394}
+  - component: {fileID: 23401860803586792}
+  - component: {fileID: 114799708114003466}
+  - component: {fileID: 114460866286966760}
+  - component: {fileID: 114462612293730078}
+  m_Layer: 0
+  m_Name: Planet
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1412627613640152
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4121174718030476}
+  - component: {fileID: 114826263833290010}
+  - component: {fileID: 114165499865407934}
+  - component: {fileID: 114378016004303810}
+  m_Layer: 0
+  m_Name: starfield
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1462299900587196
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4264016449586546}
+  - component: {fileID: 33598241596088450}
+  - component: {fileID: 23778514735769676}
+  m_Layer: 5
+  m_Name: twilight express
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1469984704866838
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4973802039205938}
+  - component: {fileID: 108064520345245310}
+  m_Layer: 0
+  m_Name: Directional Light (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1521410884522002
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4910492609038372}
+  - component: {fileID: 33569578263538744}
+  - component: {fileID: 23663204821263538}
+  m_Layer: 5
+  m_Name: aug-18
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1575772582412416
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4007328557100964}
+  - component: {fileID: 33563075637443962}
+  - component: {fileID: 23194664656931938}
+  m_Layer: 5
+  m_Name: connor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1612354377241954
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4793154967066470}
+  - component: {fileID: 33954565311746820}
+  - component: {fileID: 23389666510474770}
+  m_Layer: 5
+  m_Name: 11__
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1663256771614644
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4778493088150744}
+  - component: {fileID: 33337928467145930}
+  - component: {fileID: 23961717910858068}
+  m_Layer: 5
+  m_Name: live
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1809176901015038
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4620108823204252}
+  - component: {fileID: 33970319046103726}
+  - component: {fileID: 23376117862889924}
+  - component: {fileID: 114126998437986258}
+  m_Layer: 0
+  m_Name: ring
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1849254082148802
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4844779946178566}
+  - component: {fileID: 114238881560151758}
+  - component: {fileID: 114115179868709296}
+  - component: {fileID: 114520450989806710}
+  m_Layer: 0
+  m_Name: Midi
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1850345655299726
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 224796670715206824}
+  - component: {fileID: 222809351046071950}
+  - component: {fileID: 114820979753526218}
+  m_Layer: 5
+  m_Name: mod
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1851486202669986
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4709251944213836}
+  - component: {fileID: 33582659236331804}
+  - component: {fileID: 23678464272830824}
+  m_Layer: 0
+  m_Name: star
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1870798445783626
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4187159577494120}
+  m_Layer: 0
+  m_Name: lights
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1878283424608876
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4806633085541606}
+  - component: {fileID: 33912356580173572}
+  - component: {fileID: 23232739186348658}
+  m_Layer: 5
+  m_Name: spaced place
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1961373613702664
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4417969414523280}
+  - component: {fileID: 33413604526877014}
+  - component: {fileID: 23992393069684826}
+  m_Layer: 5
+  m_Name: netgrind
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1978211195974946
+GameObject:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4604708830370908}
+  - component: {fileID: 33109284573588306}
+  - component: {fileID: 23879974666941032}
+  m_Layer: 5
+  m_Name: cos(mos)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4007328557100964
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1575772582412416}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_Children: []
+  m_Father: {fileID: 224495271305516692}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4044143367388800
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1337821458611496}
+  m_LocalRotation: {x: -0, y: 0.9084003, z: 0.41810164, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4187159577494120}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -49.424004, y: 180.00002, z: 0}
+--- !u!4 &4121174718030476
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1412627613640152}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 40}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4709251944213836}
+  m_Father: {fileID: 4651544202260136}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4167627593524762
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1375469875886046}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 12.41}
+  m_LocalScale: {x: 4, y: 4, z: 4}
+  m_Children:
+  - {fileID: 4620108823204252}
+  m_Father: {fileID: 4298769675953296}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4187159577494120
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1870798445783626}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 9.45}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4044143367388800}
+  - {fileID: 4973802039205938}
+  - {fileID: 4598168394843456}
+  m_Father: {fileID: 4298769675953296}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4264016449586546
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1462299900587196}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -1.5, z: 0}
+  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_Children: []
+  m_Father: {fileID: 224982181212558658}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4298769675953296
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1101049188400300}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -9.45}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4167627593524762}
+  - {fileID: 4187159577494120}
+  m_Father: {fileID: 4651544202260136}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4417969414523280
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1961373613702664}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0, y: -0.75, z: 0}
+  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_Children: []
+  m_Father: {fileID: 224495271305516692}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4463404337853654
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1078507403528788}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.6, z: 0}
+  m_LocalScale: {x: 75, y: 75, z: 75}
+  m_Children: []
+  m_Father: {fileID: 224982181212558658}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4474995042245082
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1220807296350526}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4734565058493604}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4598168394843456
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1203459165818484}
+  m_LocalRotation: {x: 0.02880963, y: -0.17220528, z: 0.19321704, w: 0.965496}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4187159577494120}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 6.9680004, y: -18.598001, z: 21.205002}
+--- !u!4 &4604708830370908
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1978211195974946}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.75, z: 0}
+  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_Children:
+  - {fileID: 4734565058493604}
+  m_Father: {fileID: 224982181212558658}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4607117930824714
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1367823524653958}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_Children: []
+  m_Father: {fileID: 224982181212558658}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4620108823204252
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1809176901015038}
+  m_LocalRotation: {x: -0.78358746, y: 0.15776825, z: -0.07336331, w: 0.5964207}
+  m_LocalPosition: {x: -0.15, y: -0.45, z: 0.1}
+  m_LocalScale: {x: 90, y: 90, z: 90}
+  m_Children: []
+  m_Father: {fileID: 4167627593524762}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -114.28, y: -47.5, z: 54.5}
+--- !u!4 &4651544202260136
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1274509814961518}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4298769675953296}
+  - {fileID: 224546530486469534}
+  - {fileID: 4782321343598362}
+  - {fileID: 4844779946178566}
+  - {fileID: 4121174718030476}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4705216597762724
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1160728200524664}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0, y: -2.3, z: 0}
+  m_LocalScale: {x: 75, y: 75, z: 75}
+  m_Children: []
+  m_Father: {fileID: 224643419320117846}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4709251944213836
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1851486202669986}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 297, z: -40}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4121174718030476}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4734565058493604
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1285275150055650}
+  m_LocalRotation: {x: -0.7071068, y: -0.7071068, z: -0, w: 0}
+  m_LocalPosition: {x: -0.043, y: 0, z: 0}
+  m_LocalScale: {x: 0.005000002, y: 0.005000002, z: 0.0050000013}
+  m_Children:
+  - {fileID: 4474995042245082}
+  m_Father: {fileID: 4604708830370908}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+--- !u!4 &4778493088150744
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1663256771614644}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 75, y: 75, z: 75}
+  m_Children: []
+  m_Father: {fileID: 224643419320117846}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4782321343598362
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1188550252731130}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 8, y: 8, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4651544202260136}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4793154967066470
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1612354377241954}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0, y: -1.8, z: 0}
+  m_LocalScale: {x: 75, y: 75, z: 75}
+  m_Children: []
+  m_Father: {fileID: 224643419320117846}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4805633657048834
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1267744808375900}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.6, z: 0}
+  m_LocalScale: {x: 75, y: 75, z: 75}
+  m_Children: []
+  m_Father: {fileID: 224643419320117846}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4806633085541606
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1878283424608876}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0, y: 0.75, z: 0}
+  m_LocalScale: {x: 100, y: 100, z: 100}
+  m_Children: []
+  m_Father: {fileID: 224643419320117846}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4844779946178566
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1849254082148802}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4651544202260136}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4910492609038372
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1521410884522002}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0, y: -1.2, z: 0}
+  m_LocalScale: {x: 75, y: 75, z: 75}
+  m_Children: []
+  m_Father: {fileID: 224643419320117846}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4973802039205938
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1469984704866838}
+  m_LocalRotation: {x: 0.203773, y: 0.25006986, z: -0.4292981, w: 0.84359044}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4187159577494120}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 33.943, y: -342.987, z: -408.432}
+--- !u!4 &4974066659158432
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1185103595136202}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0, y: 0.6, z: 0}
+  m_LocalScale: {x: 75, y: 75, z: 75}
+  m_Children: []
+  m_Father: {fileID: 224495271305516692}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!20 &20753444516928880
+Camera:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1101049188400300}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.07226165, g: 0, b: 0.1102941, a: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 71.8
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 0
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!23 &23194664656931938
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1575772582412416}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 4bab3269d22de7e4ca2c5efb831aa0f7, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &23219738805491618
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1220807296350526}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 13d0799a241d4c74183d78a036f225e9, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &23232739186348658
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1878283424608876}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 4bab3269d22de7e4ca2c5efb831aa0f7, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &23376117862889924
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1809176901015038}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 2a29b1eeadea99f4abdd0adce2ae1d0d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &23389666510474770
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1612354377241954}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 4bab3269d22de7e4ca2c5efb831aa0f7, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &23401860803586792
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1375469875886046}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 40ddaa757b7e98441bfb42f6557a8e64, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &23466661207695580
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1367823524653958}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 4bab3269d22de7e4ca2c5efb831aa0f7, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &23572029026303046
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1188550252731130}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: ac800c5ed264288408f79f8c1dd13514, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &23663204821263538
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1521410884522002}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 4bab3269d22de7e4ca2c5efb831aa0f7, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &23678464272830824
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1851486202669986}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: f6d81ecaa62673945a4267bd8dae97c0, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &23716568507124646
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1185103595136202}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 4bab3269d22de7e4ca2c5efb831aa0f7, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &23750331457896522
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1078507403528788}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 4bab3269d22de7e4ca2c5efb831aa0f7, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &23778514735769676
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1462299900587196}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 4bab3269d22de7e4ca2c5efb831aa0f7, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &23879974666941032
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1978211195974946}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: c45836e3563eba44f9d8a05b23eb7c06, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &23909588004683458
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1267744808375900}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 4bab3269d22de7e4ca2c5efb831aa0f7, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &23942068705050910
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1160728200524664}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 4bab3269d22de7e4ca2c5efb831aa0f7, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &23961717910858068
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1663256771614644}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 4bab3269d22de7e4ca2c5efb831aa0f7, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!23 &23992393069684826
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1961373613702664}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 4bab3269d22de7e4ca2c5efb831aa0f7, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33030087078450302
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1220807296350526}
+  m_Mesh: {fileID: 4300002, guid: e7ae8cc9de28f5049b8027ded49fafd9, type: 3}
+--- !u!33 &33109284573588306
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1978211195974946}
+  m_Mesh: {fileID: 4300000, guid: 3843ab4dc01fd52489f39b10c6691708, type: 3}
+--- !u!33 &33224984601934950
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1267744808375900}
+  m_Mesh: {fileID: 4300000, guid: afe63eb369288b94f9357f6dc1b57eb0, type: 3}
+--- !u!33 &33330979660038836
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1367823524653958}
+  m_Mesh: {fileID: 4300000, guid: d51f47972b5b0524fbbcc4289a702ae2, type: 3}
+--- !u!33 &33337928467145930
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1663256771614644}
+  m_Mesh: {fileID: 4300000, guid: b9fff44f97eba3c4fbcf01209c765561, type: 3}
+--- !u!33 &33413604526877014
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1961373613702664}
+  m_Mesh: {fileID: 4300000, guid: 3eb7df691184d114d94d7570e66411ab, type: 3}
+--- !u!33 &33416695957565884
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1188550252731130}
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &33439534682982832
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1185103595136202}
+  m_Mesh: {fileID: 4300000, guid: 0a28d4c28cad72141ac64cfc2f8d5b0c, type: 3}
+--- !u!33 &33563075637443962
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1575772582412416}
+  m_Mesh: {fileID: 4300000, guid: b48c4f566c9f10143844b9309ab502bb, type: 3}
+--- !u!33 &33569578263538744
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1521410884522002}
+  m_Mesh: {fileID: 4300000, guid: 9a41378b5d05f854089f73cbadc26dc5, type: 3}
+--- !u!33 &33582659236331804
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1851486202669986}
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &33598241596088450
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1462299900587196}
+  m_Mesh: {fileID: 4300000, guid: 5b7395ca148956744bcb4463eae01448, type: 3}
+--- !u!33 &33692412608816394
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1375469875886046}
+  m_Mesh: {fileID: 4300000, guid: bcd78aa73ed77624cab02349c23151d3, type: 3}
+--- !u!33 &33739652907882686
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1078507403528788}
+  m_Mesh: {fileID: 4300000, guid: ba320b61b71849740abedcedbf276122, type: 3}
+--- !u!33 &33912356580173572
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1878283424608876}
+  m_Mesh: {fileID: 4300000, guid: 48cd5e98fadde174b996b52d6e72d1e7, type: 3}
+--- !u!33 &33954565311746820
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1612354377241954}
+  m_Mesh: {fileID: 4300000, guid: ea90a5075f8305f4695fa67f5ba988ff, type: 3}
+--- !u!33 &33970319046103726
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1809176901015038}
+  m_Mesh: {fileID: 4300000, guid: bd47588a57f0666458bbf4f47db41583, type: 3}
+--- !u!33 &33979255739345572
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1160728200524664}
+  m_Mesh: {fileID: 4300000, guid: 6c0836803ff99b745a822f3dcad748bd, type: 3}
+--- !u!64 &64932347843805630
+MeshCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1188550252731130}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!92 &92709787753573510
+Behaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1101049188400300}
+  m_Enabled: 1
+--- !u!108 &108013493600518648
+Light:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1337821458611496}
+  m_Enabled: 1
+  serializedVersion: 8
+  m_Type: 1
+  m_Color: {r: 1, g: 0, b: 0.10344792, a: 1}
+  m_Intensity: 0.5
+  m_Range: 10
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 4
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!108 &108064520345245310
+Light:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1469984704866838}
+  m_Enabled: 1
+  serializedVersion: 8
+  m_Type: 1
+  m_Color: {r: 0.6965518, g: 0, b: 1, a: 1}
+  m_Intensity: 0.5
+  m_Range: 10
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 4
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!108 &108508548887832694
+Light:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1203459165818484}
+  m_Enabled: 1
+  serializedVersion: 8
+  m_Type: 1
+  m_Color: {r: 1, g: 0.9310346, b: 0, a: 1}
+  m_Intensity: 0.5
+  m_Range: 10
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 4
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!114 &114066462207503314
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1101049188400300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af12226104bdc7041a09f84fa8e65273, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  extraFrame: 1
+  lastTexture: {fileID: 0}
+  textureOut:
+    type: {fileID: 0}
+    types:
+    - UnityEngine.Texture
+    - UnityEngine.Texture2D
+    - CampTexture
+    - UnityEngine.RenderTexture
+    obj: {fileID: 114248320836909914}
+    varName: lastFrame
+    componentIndex: 0
+    isMat: 0
+    componentName: 
+    go: {fileID: 0}
+--- !u!114 &114070890243302236
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1101049188400300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 673974feb0e661d49a10b8234065fe21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shader: {fileID: 4800000, guid: 362c15c3a0cbecc4eb0462e707d7176d, type: 3}
+  dist: {x: 0.2, y: 0.1, z: 0}
+  center: {x: 0, y: 0}
+  intensity: 0.1
+--- !u!114 &114115179868709296
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1849254082148802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a53ce51987adcf344aa3bf0c0c400554, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sensibilityFast: 20
+  sensibilitySlow: 8
+--- !u!114 &114126998437986258
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1809176901015038}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56a026369eab63948be9cbc0a59ad98e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  texture: {fileID: 2800000, guid: ebba24ff3a7b3484faec17d19a15923c, type: 3}
+  name: _AudioTex
+--- !u!114 &114165499865407934
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1412627613640152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73aa22fcfc6bf3949ab08d6e7ffcb76e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output:
+    type: 0
+    types:
+    - System.Single
+    - System.Int32
+    - UnityEngine.Vector2
+    - UnityEngine.Vector3
+    - UnityEngine.Vector4
+    obj: {fileID: 4121174718030476}
+    varName: localScale-x
+    componentIndex: 0
+    isMat: 0
+    componentName: 
+    go: {fileID: 0}
+    isVector: 0
+    index: 0
+  minFFT: 1
+  maxFFT: 100
+  minValue: 0.1
+  maxValue: 12
+--- !u!114 &114214377027463472
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1101049188400300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fceaeb339b971b429c4cc600acabd13, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tweakMode: 0
+  screenBlendMode: 1
+  hdr: 0
+  sepBlurSpread: 0.1
+  quality: 1
+  bloomIntensity: 1
+  bloomThreshold: 0.06
+  bloomThresholdColor: {r: 1, g: 1, b: 1, a: 1}
+  bloomBlurIterations: 4
+  hollywoodFlareBlurIterations: 2
+  flareRotation: 0
+  lensflareMode: 1
+  hollyStretchWidth: 2.5
+  lensflareIntensity: 0
+  lensflareThreshold: 0.3
+  lensFlareSaturation: 0.75
+  flareColorA: {r: 0.4, g: 0.4, b: 0.8, a: 0.75}
+  flareColorB: {r: 0.4, g: 0.8, b: 0.8, a: 0.75}
+  flareColorC: {r: 0.8, g: 0.4, b: 0.8, a: 0.75}
+  flareColorD: {r: 0.8, g: 0.4, b: 0, a: 0.75}
+  lensFlareVignetteMask: {fileID: 2800000, guid: 95ef4804fe0be4c999ddaa383536cde8,
+    type: 3}
+  lensFlareShader: {fileID: 4800000, guid: 459fe69d2f6d74ddb92f04dbf45a866b, type: 3}
+  screenBlendShader: {fileID: 4800000, guid: 7856cbff0a0ca45c787d5431eb805bb0, type: 3}
+  blurAndFlaresShader: {fileID: 4800000, guid: be6e39cf196f146d5be72fbefb18ed75, type: 3}
+  brightPassFilterShader: {fileID: 4800000, guid: 0aeaa4cb29f5d4e9c8455f04c8575c8c,
+    type: 3}
+--- !u!114 &114238881560151758
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1849254082148802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc53a15ec87a9e042a9015c8b256aa64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  smoothing: 0.1
+  stacks:
+  - manager: {fileID: 114238881560151758}
+    friendlyName: 
+    signal:
+      channel: 6
+      status: 180
+    modules:
+    - type: 1
+      index: 0
+      hasCurve: 1
+      curve:
+        m_Curve:
+        - time: 0
+          value: 0
+          inSlope: 2.2723403
+          outSlope: 2.2723403
+          tangentMode: 0
+        - time: 0.49929982
+          value: 0.49894977
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - time: 1
+          value: 1
+          inSlope: 2.2528145
+          outSlope: 2.2528145
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minmax: {x: 20, y: -20}
+      gradient:
+        key0:
+          r: 1
+          g: 1
+          b: 1
+          a: 1
+        key1:
+          r: 1
+          g: 1
+          b: 1
+          a: 1
+        key2:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key3:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key4:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key5:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key6:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key7:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      floatOutput:
+        type: 0
+        types:
+        - System.Single
+        - System.Int32
+        - UnityEngine.Vector2
+        - UnityEngine.Vector3
+        - UnityEngine.Vector4
+        obj: {fileID: 114248320836909914}
+        varName: offsetMinMax-x
+        componentIndex: 4
+        isMat: 0
+        componentName: CampTextureFFT, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        go: {fileID: 0}
+        isVector: 0
+        index: 0
+      vec3Output:
+        type: {x: 0, y: 0, z: 0}
+        types:
+        - UnityEngine.Vector3
+        obj: {fileID: 0}
+        varName: 
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+      colorOutput:
+        type:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        types:
+        - UnityEngine.Color
+        obj: {fileID: 0}
+        varName: 
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+    value: 0
+    index: 0
+    open: 0
+  - manager: {fileID: 114238881560151758}
+    friendlyName: 
+    signal:
+      channel: 7
+      status: 180
+    modules:
+    - type: 1
+      index: 0
+      hasCurve: 1
+      curve:
+        m_Curve:
+        - time: 0
+          value: 0
+          inSlope: 2.2723403
+          outSlope: 2.2723403
+          tangentMode: 0
+        - time: 0.49929982
+          value: 0.49894977
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - time: 1
+          value: 1
+          inSlope: 2.2528145
+          outSlope: 2.2528145
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minmax: {x: 20, y: -20}
+      gradient:
+        key0:
+          r: 1
+          g: 1
+          b: 1
+          a: 1
+        key1:
+          r: 1
+          g: 1
+          b: 1
+          a: 1
+        key2:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key3:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key4:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key5:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key6:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key7:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      floatOutput:
+        type: 0
+        types:
+        - System.Single
+        - System.Int32
+        - UnityEngine.Vector2
+        - UnityEngine.Vector3
+        - UnityEngine.Vector4
+        obj: {fileID: 114248320836909914}
+        varName: offsetMinMax-y
+        componentIndex: 4
+        isMat: 0
+        componentName: CampTextureFFT, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        go: {fileID: 0}
+        isVector: 0
+        index: 0
+      vec3Output:
+        type: {x: 0, y: 0, z: 0}
+        types:
+        - UnityEngine.Vector3
+        obj: {fileID: 0}
+        varName: 
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+      colorOutput:
+        type:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        types:
+        - UnityEngine.Color
+        obj: {fileID: 0}
+        varName: 
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+    value: 0
+    index: 1
+    open: 0
+  - manager: {fileID: 114238881560151758}
+    friendlyName: 
+    signal:
+      channel: 10
+      status: 180
+    modules:
+    - type: 1
+      index: 0
+      hasCurve: 1
+      curve:
+        m_Curve:
+        - time: 0
+          value: 0
+          inSlope: 2.2723403
+          outSlope: 2.2723403
+          tangentMode: 0
+        - time: 0.49929982
+          value: 0.49894977
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - time: 1
+          value: 1
+          inSlope: 2.2528145
+          outSlope: 2.2528145
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minmax: {x: 40, y: -40}
+      gradient:
+        key0:
+          r: 1
+          g: 1
+          b: 1
+          a: 1
+        key1:
+          r: 1
+          g: 1
+          b: 1
+          a: 1
+        key2:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key3:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key4:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key5:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key6:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key7:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      floatOutput:
+        type: 0
+        types:
+        - System.Single
+        - System.Int32
+        - UnityEngine.Vector2
+        - UnityEngine.Vector3
+        - UnityEngine.Vector4
+        obj: {fileID: 114248320836909914}
+        varName: offsetMinMax-z
+        componentIndex: 4
+        isMat: 0
+        componentName: CampTextureFFT, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        go: {fileID: 0}
+        isVector: 0
+        index: 0
+      vec3Output:
+        type: {x: 0, y: 0, z: 0}
+        types:
+        - UnityEngine.Vector3
+        obj: {fileID: 0}
+        varName: 
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+      colorOutput:
+        type:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        types:
+        - UnityEngine.Color
+        obj: {fileID: 0}
+        varName: 
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+    value: 0
+    index: 2
+    open: 0
+  - manager: {fileID: 114238881560151758}
+    friendlyName: 
+    signal:
+      channel: 11
+      status: 180
+    modules:
+    - type: 1
+      index: 0
+      hasCurve: 1
+      curve:
+        m_Curve:
+        - time: 0
+          value: 0
+          inSlope: 2.2723403
+          outSlope: 2.2723403
+          tangentMode: 0
+        - time: 0.49929982
+          value: 0.49894977
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - time: 1
+          value: 1
+          inSlope: 2.2528145
+          outSlope: 2.2528145
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minmax: {x: 40, y: -40}
+      gradient:
+        key0:
+          r: 1
+          g: 1
+          b: 1
+          a: 1
+        key1:
+          r: 1
+          g: 1
+          b: 1
+          a: 1
+        key2:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key3:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key4:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key5:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key6:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key7:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      floatOutput:
+        type: 0
+        types:
+        - System.Single
+        - System.Int32
+        - UnityEngine.Vector2
+        - UnityEngine.Vector3
+        - UnityEngine.Vector4
+        obj: {fileID: 114248320836909914}
+        varName: offsetMinMax-w
+        componentIndex: 4
+        isMat: 0
+        componentName: CampTextureFFT, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        go: {fileID: 0}
+        isVector: 0
+        index: 0
+      vec3Output:
+        type: {x: 0, y: 0, z: 0}
+        types:
+        - UnityEngine.Vector3
+        obj: {fileID: 0}
+        varName: 
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+      colorOutput:
+        type:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        types:
+        - UnityEngine.Color
+        obj: {fileID: 0}
+        varName: 
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+    value: 0
+    index: 3
+    open: 0
+  - manager: {fileID: 114238881560151758}
+    friendlyName: 
+    signal:
+      channel: 48
+      status: 180
+    modules:
+    - type: 1
+      index: 0
+      hasCurve: 1
+      curve:
+        m_Curve:
+        - time: 0
+          value: 0
+          inSlope: 2
+          outSlope: 2
+          tangentMode: 0
+        - time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minmax: {x: 0, y: 0.99}
+      gradient:
+        key0:
+          r: 1
+          g: 1
+          b: 1
+          a: 1
+        key1:
+          r: 1
+          g: 1
+          b: 1
+          a: 1
+        key2:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key3:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key4:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key5:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key6:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key7:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      floatOutput:
+        type: 0
+        types:
+        - System.Single
+        - System.Int32
+        - UnityEngine.Vector2
+        - UnityEngine.Vector3
+        - UnityEngine.Vector4
+        obj: {fileID: 114248320836909914}
+        varName: fade
+        componentIndex: 4
+        isMat: 0
+        componentName: Displacement, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        go: {fileID: 1101049188400300}
+        isVector: 0
+        index: 0
+      vec3Output:
+        type: {x: 0, y: 0, z: 0}
+        types:
+        - UnityEngine.Vector3
+        obj: {fileID: 0}
+        varName: 
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+      colorOutput:
+        type:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        types:
+        - UnityEngine.Color
+        obj: {fileID: 0}
+        varName: 
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+    value: 0
+    index: 4
+    open: 0
+  - manager: {fileID: 114238881560151758}
+    friendlyName: 
+    signal:
+      channel: 14
+      status: 180
+    modules:
+    - type: 1
+      index: 0
+      hasCurve: 1
+      curve:
+        m_Curve:
+        - time: 0
+          value: 0
+          inSlope: 2.2723403
+          outSlope: 2.2723403
+          tangentMode: 0
+        - time: 0.49929982
+          value: 0.49894977
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - time: 1
+          value: 1
+          inSlope: 2.2528145
+          outSlope: 2.2528145
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minmax: {x: -1, y: 1}
+      gradient:
+        key0:
+          r: 1
+          g: 1
+          b: 1
+          a: 1
+        key1:
+          r: 1
+          g: 1
+          b: 1
+          a: 1
+        key2:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key3:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key4:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key5:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key6:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key7:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      floatOutput:
+        type: 0
+        types:
+        - System.Single
+        - System.Int32
+        - UnityEngine.Vector2
+        - UnityEngine.Vector3
+        - UnityEngine.Vector4
+        obj: {fileID: 114248320836909914}
+        varName: angle
+        componentIndex: 5
+        isMat: 0
+        componentName: Displacement, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        go: {fileID: 1101049188400300}
+        isVector: 0
+        index: 0
+      vec3Output:
+        type: {x: 0, y: 0, z: 0}
+        types:
+        - UnityEngine.Vector3
+        obj: {fileID: 0}
+        varName: 
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+      colorOutput:
+        type:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        types:
+        - UnityEngine.Color
+        obj: {fileID: 0}
+        varName: 
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+    value: 0
+    index: 5
+    open: 0
+  - manager: {fileID: 114238881560151758}
+    friendlyName: 
+    signal:
+      channel: 15
+      status: 180
+    modules:
+    - type: 1
+      index: 0
+      hasCurve: 1
+      curve:
+        m_Curve:
+        - time: 0
+          value: 0
+          inSlope: 1.0416667
+          outSlope: 1.0416667
+          tangentMode: 34
+        - time: 0.48
+          value: 0.5
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - time: 0.52
+          value: 0.5
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - time: 1
+          value: 1
+          inSlope: 1.0416666
+          outSlope: 1.0416666
+          tangentMode: 34
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minmax: {x: -0.5, y: 0.5}
+      gradient:
+        key0:
+          r: 1
+          g: 1
+          b: 1
+          a: 1
+        key1:
+          r: 1
+          g: 1
+          b: 1
+          a: 1
+        key2:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key3:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key4:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key5:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key6:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key7:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      floatOutput:
+        type: 0
+        types:
+        - System.Single
+        - System.Int32
+        - UnityEngine.Vector2
+        - UnityEngine.Vector3
+        - UnityEngine.Vector4
+        obj: {fileID: 114248320836909914}
+        varName: anglePerSecond
+        componentIndex: 5
+        isMat: 0
+        componentName: Displacement, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        go: {fileID: 1101049188400300}
+        isVector: 0
+        index: 0
+      vec3Output:
+        type: {x: 0, y: 0, z: 0}
+        types:
+        - UnityEngine.Vector3
+        obj: {fileID: 0}
+        varName: 
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+      colorOutput:
+        type:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        types:
+        - UnityEngine.Color
+        obj: {fileID: 0}
+        varName: 
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+    value: 0
+    index: 6
+    open: 0
+  - manager: {fileID: 114238881560151758}
+    friendlyName: 
+    signal:
+      channel: 18
+      status: 180
+    modules:
+    - type: 1
+      index: 0
+      hasCurve: 0
+      curve:
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minmax: {x: 0.5, y: 16}
+      gradient:
+        key0:
+          r: 1
+          g: 1
+          b: 1
+          a: 1
+        key1:
+          r: 1
+          g: 1
+          b: 1
+          a: 1
+        key2:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key3:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key4:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key5:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key6:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key7:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      floatOutput:
+        type: 0
+        types:
+        - System.Single
+        - System.Int32
+        - UnityEngine.Vector2
+        - UnityEngine.Vector3
+        - UnityEngine.Vector4
+        obj: {fileID: 114248320836909914}
+        varName: flowST-x
+        componentIndex: 4
+        isMat: 0
+        componentName: Displacement, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        go: {fileID: 1101049188400300}
+        isVector: 0
+        index: 0
+      vec3Output:
+        type: {x: 0, y: 0, z: 0}
+        types:
+        - UnityEngine.Vector3
+        obj: {fileID: 0}
+        varName: 
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+      colorOutput:
+        type:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        types:
+        - UnityEngine.Color
+        obj: {fileID: 0}
+        varName: 
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+    value: 0
+    index: 7
+    open: 0
+  - manager: {fileID: 114238881560151758}
+    friendlyName: 
+    signal:
+      channel: 19
+      status: 180
+    modules:
+    - type: 1
+      index: 0
+      hasCurve: 1
+      curve:
+        m_Curve:
+        - time: 0
+          value: 0
+          inSlope: 2.2723403
+          outSlope: 2.2723403
+          tangentMode: 0
+        - time: 0.49929982
+          value: 0.49894977
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - time: 1
+          value: 1
+          inSlope: 2.2528145
+          outSlope: 2.2528145
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minmax: {x: -1, y: 1}
+      gradient:
+        key0:
+          r: 1
+          g: 1
+          b: 1
+          a: 1
+        key1:
+          r: 1
+          g: 1
+          b: 1
+          a: 1
+        key2:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key3:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key4:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key5:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key6:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key7:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      floatOutput:
+        type: 0
+        types:
+        - System.Single
+        - System.Int32
+        - UnityEngine.Vector2
+        - UnityEngine.Vector3
+        - UnityEngine.Vector4
+        obj: {fileID: 114248320836909914}
+        varName: flowST-z
+        componentIndex: 4
+        isMat: 0
+        componentName: Displacement, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+          PublicKeyToken=null
+        go: {fileID: 1101049188400300}
+        isVector: 0
+        index: 0
+      vec3Output:
+        type: {x: 0, y: 0, z: 0}
+        types:
+        - UnityEngine.Vector3
+        obj: {fileID: 0}
+        varName: 
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+      colorOutput:
+        type:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        types:
+        - UnityEngine.Color
+        obj: {fileID: 0}
+        varName: 
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+    value: 0
+    index: 8
+    open: 0
+  - manager: {fileID: 114238881560151758}
+    friendlyName: 
+    signal:
+      channel: 9
+      status: 180
+    modules:
+    - type: 1
+      index: 0
+      hasCurve: 1
+      curve:
+        m_Curve:
+        - time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - time: 0.48
+          value: 0.5
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - time: 0.52
+          value: 0.5
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minmax: {x: 0, y: 1}
+      gradient:
+        key0:
+          r: 1
+          g: 1
+          b: 1
+          a: 1
+        key1:
+          r: 1
+          g: 1
+          b: 1
+          a: 1
+        key2:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key3:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key4:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key5:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key6:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key7:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      floatOutput:
+        type: 0
+        types:
+        - System.Single
+        - System.Int32
+        - UnityEngine.Vector2
+        - UnityEngine.Vector3
+        - UnityEngine.Vector4
+        obj: {fileID: 114442279896810062}
+        varName: hue
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+        isVector: 0
+        index: 0
+      vec3Output:
+        type: {x: 0, y: 0, z: 0}
+        types:
+        - UnityEngine.Vector3
+        obj: {fileID: 0}
+        varName: 
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+      colorOutput:
+        type:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        types:
+        - UnityEngine.Color
+        obj: {fileID: 0}
+        varName: 
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+    value: 0
+    index: 9
+    open: 0
+  - manager: {fileID: 114238881560151758}
+    friendlyName: 
+    signal:
+      channel: 8
+      status: 180
+    modules:
+    - type: 1
+      index: 0
+      hasCurve: 1
+      curve:
+        m_Curve:
+        - time: 0
+          value: 0
+          inSlope: 1.0416667
+          outSlope: 1.0416667
+          tangentMode: 34
+        - time: 0.48
+          value: 0.5
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - time: 0.52
+          value: 0.5
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - time: 1
+          value: 1
+          inSlope: 1.0416666
+          outSlope: 1.0416666
+          tangentMode: 34
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minmax: {x: 0.9, y: 1.1}
+      gradient:
+        key0:
+          r: 1
+          g: 1
+          b: 1
+          a: 1
+        key1:
+          r: 1
+          g: 1
+          b: 1
+          a: 1
+        key2:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key3:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key4:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key5:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key6:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key7:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      floatOutput:
+        type: 0
+        types:
+        - System.Single
+        - System.Int32
+        - UnityEngine.Vector2
+        - UnityEngine.Vector3
+        - UnityEngine.Vector4
+        obj: {fileID: 114442279896810062}
+        varName: sat
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+        isVector: 0
+        index: 0
+      vec3Output:
+        type: {x: 0, y: 0, z: 0}
+        types:
+        - UnityEngine.Vector3
+        obj: {fileID: 0}
+        varName: 
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+      colorOutput:
+        type:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        types:
+        - UnityEngine.Color
+        obj: {fileID: 0}
+        varName: 
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+    value: 0
+    index: 10
+    open: 0
+  - manager: {fileID: 114238881560151758}
+    friendlyName: 
+    signal:
+      channel: 12
+      status: 180
+    modules:
+    - type: 1
+      index: 0
+      hasCurve: 1
+      curve:
+        m_Curve:
+        - time: 0
+          value: 0
+          inSlope: 2.2723403
+          outSlope: 2.2723403
+          tangentMode: 0
+        - time: 0.49929982
+          value: 0.49894977
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - time: 1
+          value: 1
+          inSlope: 2.2528145
+          outSlope: 2.2528145
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minmax: {x: -1, y: 1}
+      gradient:
+        key0:
+          r: 1
+          g: 1
+          b: 1
+          a: 1
+        key1:
+          r: 1
+          g: 1
+          b: 1
+          a: 1
+        key2:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key3:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key4:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key5:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key6:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key7:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      floatOutput:
+        type: 0
+        types:
+        - System.Single
+        - System.Int32
+        - UnityEngine.Vector2
+        - UnityEngine.Vector3
+        - UnityEngine.Vector4
+        obj: {fileID: 114804078113822198}
+        varName: intensity
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+        isVector: 0
+        index: 0
+      vec3Output:
+        type: {x: 0, y: 0, z: 0}
+        types:
+        - UnityEngine.Vector3
+        obj: {fileID: 0}
+        varName: 
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+      colorOutput:
+        type:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        types:
+        - UnityEngine.Color
+        obj: {fileID: 0}
+        varName: 
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+    value: 0
+    index: 11
+    open: 0
+  - manager: {fileID: 114238881560151758}
+    friendlyName: 
+    signal:
+      channel: 13
+      status: 180
+    modules:
+    - type: 1
+      index: 0
+      hasCurve: 1
+      curve:
+        m_Curve:
+        - time: 0
+          value: 0
+          inSlope: 2.2723403
+          outSlope: 2.2723403
+          tangentMode: 0
+        - time: 0.49929982
+          value: 0.49894977
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - time: 1
+          value: 1
+          inSlope: 2.2528145
+          outSlope: 2.2528145
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minmax: {x: 0.1, y: -0.1}
+      gradient:
+        key0:
+          r: 1
+          g: 1
+          b: 1
+          a: 1
+        key1:
+          r: 1
+          g: 1
+          b: 1
+          a: 1
+        key2:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key3:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key4:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key5:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key6:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key7:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      floatOutput:
+        type: 0
+        types:
+        - System.Single
+        - System.Int32
+        - UnityEngine.Vector2
+        - UnityEngine.Vector3
+        - UnityEngine.Vector4
+        obj: {fileID: 114505074378477286}
+        varName: dist-x
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+        isVector: 0
+        index: 0
+      vec3Output:
+        type: {x: 0, y: 0, z: 0}
+        types:
+        - UnityEngine.Vector3
+        obj: {fileID: 0}
+        varName: 
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+      colorOutput:
+        type:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        types:
+        - UnityEngine.Color
+        obj: {fileID: 0}
+        varName: 
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+    value: 0
+    index: 12
+    open: 0
+  - manager: {fileID: 114238881560151758}
+    friendlyName: 
+    signal:
+      channel: 17
+      status: 180
+    modules:
+    - type: 1
+      index: 0
+      hasCurve: 1
+      curve:
+        m_Curve:
+        - time: 0
+          value: 0
+          inSlope: 2.2723403
+          outSlope: 2.2723403
+          tangentMode: 0
+        - time: 0.49929982
+          value: 0.49894977
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - time: 1
+          value: 1
+          inSlope: 2.2528145
+          outSlope: 2.2528145
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minmax: {x: 0.1, y: -0.1}
+      gradient:
+        key0:
+          r: 1
+          g: 1
+          b: 1
+          a: 1
+        key1:
+          r: 1
+          g: 1
+          b: 1
+          a: 1
+        key2:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key3:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key4:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key5:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key6:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key7:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      floatOutput:
+        type: 0
+        types:
+        - System.Single
+        - System.Int32
+        - UnityEngine.Vector2
+        - UnityEngine.Vector3
+        - UnityEngine.Vector4
+        obj: {fileID: 114505074378477286}
+        varName: dist-y
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+        isVector: 0
+        index: 0
+      vec3Output:
+        type: {x: 0, y: 0, z: 0}
+        types:
+        - UnityEngine.Vector3
+        obj: {fileID: 0}
+        varName: 
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+      colorOutput:
+        type:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        types:
+        - UnityEngine.Color
+        obj: {fileID: 0}
+        varName: 
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+    value: 0
+    index: 13
+    open: 0
+  - manager: {fileID: 114238881560151758}
+    friendlyName: 
+    signal:
+      channel: 21
+      status: 180
+    modules:
+    - type: 1
+      index: 0
+      hasCurve: 1
+      curve:
+        m_Curve:
+        - time: 0
+          value: 0
+          inSlope: 2.2723403
+          outSlope: 2.2723403
+          tangentMode: 0
+        - time: 0.49929982
+          value: 0.49894977
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - time: 1
+          value: 1
+          inSlope: 2.2528145
+          outSlope: 2.2528145
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minmax: {x: 0.1, y: -0.1}
+      gradient:
+        key0:
+          r: 1
+          g: 1
+          b: 1
+          a: 1
+        key1:
+          r: 1
+          g: 1
+          b: 1
+          a: 1
+        key2:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key3:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key4:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key5:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key6:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key7:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      floatOutput:
+        type: 0
+        types:
+        - System.Single
+        - System.Int32
+        - UnityEngine.Vector2
+        - UnityEngine.Vector3
+        - UnityEngine.Vector4
+        obj: {fileID: 114505074378477286}
+        varName: dist-z
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+        isVector: 0
+        index: 0
+      vec3Output:
+        type: {x: 0, y: 0, z: 0}
+        types:
+        - UnityEngine.Vector3
+        obj: {fileID: 0}
+        varName: 
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+      colorOutput:
+        type:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        types:
+        - UnityEngine.Color
+        obj: {fileID: 0}
+        varName: 
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+    value: 0
+    index: 14
+    open: 0
+  - manager: {fileID: 114238881560151758}
+    friendlyName: 
+    signal:
+      channel: 50
+      status: 180
+    modules:
+    - type: 1
+      index: 0
+      hasCurve: 0
+      curve:
+        m_Curve:
+        - time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - time: 1
+          value: 1
+          inSlope: 2
+          outSlope: 2
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minmax: {x: -1, y: 1}
+      gradient:
+        key0:
+          r: 1
+          g: 1
+          b: 1
+          a: 1
+        key1:
+          r: 1
+          g: 1
+          b: 1
+          a: 1
+        key2:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key3:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key4:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key5:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key6:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key7:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      floatOutput:
+        type: 0
+        types:
+        - System.Single
+        - System.Int32
+        - UnityEngine.Vector2
+        - UnityEngine.Vector3
+        - UnityEngine.Vector4
+        obj: {fileID: 114214377027463472}
+        varName: bloomIntensity
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+        isVector: 0
+        index: 0
+      vec3Output:
+        type: {x: 0, y: 0, z: 0}
+        types:
+        - UnityEngine.Vector3
+        obj: {fileID: 0}
+        varName: 
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+      colorOutput:
+        type:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        types:
+        - UnityEngine.Color
+        obj: {fileID: 0}
+        varName: 
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+    value: 0
+    index: 15
+    open: 0
+  - manager: {fileID: 114238881560151758}
+    friendlyName: 
+    signal:
+      channel: 16
+      status: 180
+    modules:
+    - type: 1
+      index: 0
+      hasCurve: 0
+      curve:
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minmax: {x: 0.5, y: 3}
+      gradient:
+        key0:
+          r: 1
+          g: 1
+          b: 1
+          a: 1
+        key1:
+          r: 1
+          g: 1
+          b: 1
+          a: 1
+        key2:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key3:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key4:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key5:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key6:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key7:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      floatOutput:
+        type: 0
+        types:
+        - System.Single
+        - System.Int32
+        - UnityEngine.Vector2
+        - UnityEngine.Vector3
+        - UnityEngine.Vector4
+        obj: {fileID: 114804078113822198}
+        varName: freq
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+        isVector: 0
+        index: 0
+      vec3Output:
+        type: {x: 0, y: 0, z: 0}
+        types:
+        - UnityEngine.Vector3
+        obj: {fileID: 0}
+        varName: 
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+      colorOutput:
+        type:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        types:
+        - UnityEngine.Color
+        obj: {fileID: 0}
+        varName: 
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+    value: 0
+    index: 16
+    open: 0
+  - manager: {fileID: 114238881560151758}
+    friendlyName: 
+    signal:
+      channel: 20
+      status: 180
+    modules:
+    - type: 1
+      index: 0
+      hasCurve: 1
+      curve:
+        m_Curve:
+        - time: 0
+          value: 0
+          inSlope: 2.2723403
+          outSlope: 2.2723403
+          tangentMode: 0
+        - time: 0.49929982
+          value: 0.49894977
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - time: 1
+          value: 1
+          inSlope: 2.2528145
+          outSlope: 2.2528145
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minmax: {x: -0.5, y: 0.5}
+      gradient:
+        key0:
+          r: 1
+          g: 1
+          b: 1
+          a: 1
+        key1:
+          r: 1
+          g: 1
+          b: 1
+          a: 1
+        key2:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key3:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key4:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key5:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key6:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key7:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      floatOutput:
+        type: 0
+        types:
+        - System.Single
+        - System.Int32
+        - UnityEngine.Vector2
+        - UnityEngine.Vector3
+        - UnityEngine.Vector4
+        obj: {fileID: 114804078113822198}
+        varName: phase
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+        isVector: 0
+        index: 0
+      vec3Output:
+        type: {x: 0, y: 0, z: 0}
+        types:
+        - UnityEngine.Vector3
+        obj: {fileID: 0}
+        varName: 
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+      colorOutput:
+        type:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        types:
+        - UnityEngine.Color
+        obj: {fileID: 0}
+        varName: 
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+    value: 0
+    index: 17
+    open: 0
+  - manager: {fileID: 114238881560151758}
+    friendlyName: 
+    signal:
+      channel: 49
+      status: 180
+    modules:
+    - type: 1
+      index: 0
+      hasCurve: 0
+      curve:
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minmax: {x: 75, y: 24}
+      gradient:
+        key0:
+          r: 1
+          g: 1
+          b: 1
+          a: 1
+        key1:
+          r: 1
+          g: 1
+          b: 1
+          a: 1
+        key2:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key3:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key4:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key5:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key6:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key7:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      floatOutput:
+        type: 0
+        types:
+        - System.Single
+        - System.Int32
+        - UnityEngine.Vector2
+        - UnityEngine.Vector3
+        - UnityEngine.Vector4
+        obj: {fileID: 20753444516928880}
+        varName: fov
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+        isVector: 0
+        index: 0
+      vec3Output:
+        type: {x: 0, y: 0, z: 0}
+        types:
+        - UnityEngine.Vector3
+        obj: {fileID: 0}
+        varName: 
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+      colorOutput:
+        type:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        types:
+        - UnityEngine.Color
+        obj: {fileID: 0}
+        varName: 
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+    value: 0
+    index: 18
+    open: 0
+  - manager: {fileID: 114238881560151758}
+    friendlyName: 
+    signal:
+      channel: 1
+      status: 180
+    modules:
+    - type: 1
+      index: 0
+      hasCurve: 1
+      curve:
+        m_Curve:
+        - time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - time: 1
+          value: 1
+          inSlope: 2
+          outSlope: 2
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minmax: {x: 0.001, y: 1}
+      gradient:
+        key0:
+          r: 1
+          g: 1
+          b: 1
+          a: 1
+        key1:
+          r: 1
+          g: 1
+          b: 1
+          a: 1
+        key2:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key3:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key4:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key5:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key6:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key7:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      floatOutput:
+        type: 0
+        types:
+        - System.Single
+        - System.Int32
+        - UnityEngine.Vector2
+        - UnityEngine.Vector3
+        - UnityEngine.Vector4
+        obj: {fileID: 0}
+        varName: falloffRate
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+        isVector: 0
+        index: 0
+      vec3Output:
+        type: {x: 0, y: 0, z: 0}
+        types:
+        - UnityEngine.Vector3
+        obj: {fileID: 0}
+        varName: 
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+      colorOutput:
+        type:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        types:
+        - UnityEngine.Color
+        obj: {fileID: 0}
+        varName: 
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+    value: 0
+    index: 19
+    open: 0
+  - manager: {fileID: 114238881560151758}
+    friendlyName: 
+    signal:
+      channel: 2
+      status: 180
+    modules:
+    - type: 1
+      index: 0
+      hasCurve: 1
+      curve:
+        m_Curve:
+        - time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minmax: {x: 0.01, y: 0.99}
+      gradient:
+        key0:
+          r: 1
+          g: 1
+          b: 1
+          a: 1
+        key1:
+          r: 1
+          g: 1
+          b: 1
+          a: 1
+        key2:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key3:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key4:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key5:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key6:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key7:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      floatOutput:
+        type: 0
+        types:
+        - System.Single
+        - System.Int32
+        - UnityEngine.Vector2
+        - UnityEngine.Vector3
+        - UnityEngine.Vector4
+        obj: {fileID: 0}
+        varName: lerp
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+        isVector: 0
+        index: 0
+      vec3Output:
+        type: {x: 0, y: 0, z: 0}
+        types:
+        - UnityEngine.Vector3
+        obj: {fileID: 0}
+        varName: 
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+      colorOutput:
+        type:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        types:
+        - UnityEngine.Color
+        obj: {fileID: 0}
+        varName: 
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+    value: 0
+    index: 20
+    open: 0
+  - manager: {fileID: 114238881560151758}
+    friendlyName: 
+    signal:
+      channel: 4
+      status: 180
+    modules:
+    - type: 1
+      index: 0
+      hasCurve: 0
+      curve:
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minmax: {x: 1, y: 2}
+      gradient:
+        key0:
+          r: 1
+          g: 1
+          b: 1
+          a: 1
+        key1:
+          r: 1
+          g: 1
+          b: 1
+          a: 1
+        key2:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key3:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key4:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key5:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key6:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key7:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      floatOutput:
+        type: 0
+        types:
+        - System.Single
+        - System.Int32
+        - UnityEngine.Vector2
+        - UnityEngine.Vector3
+        - UnityEngine.Vector4
+        obj: {fileID: 0}
+        varName: spectrumMul
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+        isVector: 0
+        index: 0
+      vec3Output:
+        type: {x: 0, y: 0, z: 0}
+        types:
+        - UnityEngine.Vector3
+        obj: {fileID: 0}
+        varName: 
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+      colorOutput:
+        type:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        types:
+        - UnityEngine.Color
+        obj: {fileID: 0}
+        varName: 
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+    value: 0
+    index: 21
+    open: 0
+  - manager: {fileID: 114238881560151758}
+    friendlyName: 
+    signal:
+      channel: 5
+      status: 180
+    modules:
+    - type: 1
+      index: 0
+      hasCurve: 0
+      curve:
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minmax: {x: 0.5, y: 4}
+      gradient:
+        key0:
+          r: 1
+          g: 1
+          b: 1
+          a: 1
+        key1:
+          r: 1
+          g: 1
+          b: 1
+          a: 1
+        key2:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key3:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key4:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key5:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key6:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key7:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      floatOutput:
+        type: 0
+        types:
+        - System.Single
+        - System.Int32
+        - UnityEngine.Vector2
+        - UnityEngine.Vector3
+        - UnityEngine.Vector4
+        obj: {fileID: 0}
+        varName: spectrumPow
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+        isVector: 0
+        index: 0
+      vec3Output:
+        type: {x: 0, y: 0, z: 0}
+        types:
+        - UnityEngine.Vector3
+        obj: {fileID: 0}
+        varName: 
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+      colorOutput:
+        type:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        types:
+        - UnityEngine.Color
+        obj: {fileID: 0}
+        varName: 
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+    value: 0
+    index: 22
+    open: 0
+  - manager: {fileID: 114238881560151758}
+    friendlyName: 
+    signal:
+      channel: 51
+      status: 180
+    modules:
+    - type: 1
+      index: 0
+      hasCurve: 0
+      curve:
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minmax: {x: -1, y: 1}
+      gradient:
+        key0:
+          r: 1
+          g: 1
+          b: 1
+          a: 1
+        key1:
+          r: 1
+          g: 1
+          b: 1
+          a: 1
+        key2:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key3:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key4:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key5:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key6:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key7:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      floatOutput:
+        type: 0
+        types:
+        - System.Single
+        - System.Int32
+        - UnityEngine.Vector2
+        - UnityEngine.Vector3
+        - UnityEngine.Vector4
+        obj: {fileID: 114070890243302236}
+        varName: intensity
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+        isVector: 0
+        index: 0
+      vec3Output:
+        type: {x: 0, y: 0, z: 0}
+        types:
+        - UnityEngine.Vector3
+        obj: {fileID: 0}
+        varName: 
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+      colorOutput:
+        type:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        types:
+        - UnityEngine.Color
+        obj: {fileID: 0}
+        varName: 
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+    value: 0
+    index: 23
+    open: 1
+  - manager: {fileID: 114238881560151758}
+    friendlyName: 
+    signal:
+      channel: 64
+      status: 180
+    modules:
+    - type: 1
+      index: 0
+      hasCurve: 0
+      curve:
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minmax: {x: 2, y: 12}
+      gradient:
+        key0:
+          r: 1
+          g: 1
+          b: 1
+          a: 1
+        key1:
+          r: 1
+          g: 1
+          b: 1
+          a: 1
+        key2:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key3:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key4:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key5:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key6:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key7:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      floatOutput:
+        type: 0
+        types:
+        - System.Single
+        - System.Int32
+        - UnityEngine.Vector2
+        - UnityEngine.Vector3
+        - UnityEngine.Vector4
+        obj: {fileID: 114378016004303810}
+        varName: maxValue
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+        isVector: 0
+        index: 0
+      vec3Output:
+        type: {x: 0, y: 0, z: 0}
+        types:
+        - UnityEngine.Vector3
+        obj: {fileID: 0}
+        varName: 
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+      colorOutput:
+        type:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        types:
+        - UnityEngine.Color
+        obj: {fileID: 0}
+        varName: 
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+    - type: 1
+      index: 1
+      hasCurve: 0
+      curve:
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minmax: {x: 2, y: 12}
+      gradient:
+        key0:
+          r: 1
+          g: 1
+          b: 1
+          a: 1
+        key1:
+          r: 1
+          g: 1
+          b: 1
+          a: 1
+        key2:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key3:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key4:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key5:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key6:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        key7:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      floatOutput:
+        type: 0
+        types:
+        - System.Single
+        - System.Int32
+        - UnityEngine.Vector2
+        - UnityEngine.Vector3
+        - UnityEngine.Vector4
+        obj: {fileID: 114165499865407934}
+        varName: maxValue
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+        isVector: 0
+        index: 0
+      vec3Output:
+        type: {x: 0, y: 0, z: 0}
+        types:
+        - UnityEngine.Vector3
+        obj: {fileID: 0}
+        varName: 
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+      colorOutput:
+        type:
+          r: 0
+          g: 0
+          b: 0
+          a: 0
+        types:
+        - UnityEngine.Color
+        obj: {fileID: 0}
+        varName: 
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+    value: 0
+    index: 24
+    open: 1
+--- !u!114 &114248320836909914
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1101049188400300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dee162f34d3b904a8d167f8b45a8526, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shader: {fileID: 4800000, guid: f229ff9b78883fd41b3689b146921a9d, type: 3}
+  merge: 1
+  lastFrame: {fileID: 0}
+  flow:
+    texture: {fileID: 0}
+    scaleTranslate: {x: 0.5, y: 1, z: 0, w: 0}
+    scaleTranslatePerSecond: {x: 0, y: 0, z: 0, w: 0}
+  offsetMinMax: {x: -1, y: 10, z: -15, w: -2}
+  fade: 0.9
+  radial: 1
+  angle: 0
+  anglePerSecond: 0
+  center: {fileID: 4167627593524762}
+  invertY: 0
+  flowST: {x: 1, y: 0, z: 0, w: 0}
+--- !u!114 &114314278498427772
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1244504479353962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7c6792a04cef3145887364d5c3f7b01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output:
+    type: 0
+    types:
+    - System.Single
+    - System.Int32
+    - UnityEngine.Vector2
+    - UnityEngine.Vector3
+    - UnityEngine.Vector4
+    obj: {fileID: 2100000, guid: 9f652bc33efb3844ca0c3b3e5e4af79c, type: 2}
+    varName: _Shape-z
+    componentIndex: 0
+    isMat: 1
+    componentName: 
+    go: {fileID: 0}
+    isVector: 1
+    index: 2
+  speed: 2
+--- !u!114 &114328919238453598
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1220807296350526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83668c5343588364cbac63df44dc3dba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fft: 120
+  min: -1
+  max: 0
+  field:
+    type: 0
+    types:
+    - System.Single
+    - System.Int32
+    - UnityEngine.Vector2
+    - UnityEngine.Vector3
+    - UnityEngine.Vector4
+    obj: {fileID: 4474995042245082}
+    varName: localPosition-y
+    componentIndex: 0
+    isMat: 0
+    componentName: 
+    go: {fileID: 0}
+    isVector: 1
+    index: 0
+--- !u!114 &114378016004303810
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1412627613640152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73aa22fcfc6bf3949ab08d6e7ffcb76e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output:
+    type: 0
+    types:
+    - System.Single
+    - System.Int32
+    - UnityEngine.Vector2
+    - UnityEngine.Vector3
+    - UnityEngine.Vector4
+    obj: {fileID: 4121174718030476}
+    varName: localScale-y
+    componentIndex: 0
+    isMat: 0
+    componentName: 
+    go: {fileID: 0}
+    isVector: 0
+    index: 0
+  minFFT: 1
+  maxFFT: 100
+  minValue: 0.1
+  maxValue: 12
+--- !u!114 &114442279896810062
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1101049188400300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34abf62c4945d534890f901f86bd3407, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shader: {fileID: 4800000, guid: 59f75bfba59b1a74281d48da6eb9c0f7, type: 3}
+  hue: -0.51
+  sat: 1
+  val: 1
+  wrapUp: 0
+  wrapDown: 0
+  wrapUpPoint: 0.01
+  wrapDownPoint: 0.99
+--- !u!114 &114460866286966760
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1375469875886046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00fd88692d04c9142b76512f8ef9f52e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.5
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 1
+    m_RotationOrder: 0
+  animationTime: 4
+  startingPhase: 0.25
+  minValue: -5
+  maxValue: 5
+  field:
+    type: 0
+    types:
+    - System.Single
+    - System.Int32
+    - UnityEngine.Vector2
+    - UnityEngine.Vector3
+    - UnityEngine.Vector4
+    obj: {fileID: 4167627593524762}
+    varName: localEulerAngles-z
+    componentIndex: 0
+    isMat: 0
+    componentName: 
+    go: {fileID: 0}
+    isVector: 1
+    index: 2
+--- !u!114 &114462612293730078
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1375469875886046}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 83668c5343588364cbac63df44dc3dba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fft: 50
+  min: 0.7
+  max: 0.7
+  field:
+    type: 0
+    types:
+    - System.Single
+    - System.Int32
+    - UnityEngine.Vector2
+    - UnityEngine.Vector3
+    - UnityEngine.Vector4
+    obj: {fileID: 2100000, guid: 40ddaa757b7e98441bfb42f6557a8e64, type: 2}
+    varName: _Shape-x
+    componentIndex: 0
+    isMat: 1
+    componentName: 
+    go: {fileID: 0}
+    isVector: 1
+    index: 0
+--- !u!114 &114505074378477286
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1101049188400300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 673974feb0e661d49a10b8234065fe21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shader: {fileID: 4800000, guid: 362c15c3a0cbecc4eb0462e707d7176d, type: 3}
+  dist: {x: 0.2, y: 0.1, z: 0}
+  center: {x: 0, y: 0}
+  intensity: 1
+--- !u!114 &114520450989806710
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1849254082148802}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e67024702cd68bf44a5912e074c8e49c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  buttonCount: 8
+  buttonStartingIndex: 48
+  buttonEventPrefix: b
+  buttonEventStartingIndex: 48
+--- !u!114 &114531197692388438
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1244504479353962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1980459831, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 0
+  m_ReferencePixelsPerUnit: 1
+  m_ScaleFactor: 100
+  m_ReferenceResolution: {x: 500, y: 500}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+--- !u!114 &114636652511409932
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1244504479353962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1301386320, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &114647731191079912
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1101049188400300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bce641d6b50cdd43b6b9fd1d24ba52d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  events:
+  - b48
+  - b49
+  - b50
+  - b51
+  merge: 00000000010000000300000008000000
+  displacement: {fileID: 114248320836909914}
+--- !u!114 &114791845200699922
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1244504479353962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7c6792a04cef3145887364d5c3f7b01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  output:
+    type: 0
+    types:
+    - System.Single
+    - System.Int32
+    - UnityEngine.Vector2
+    - UnityEngine.Vector3
+    - UnityEngine.Vector4
+    obj: {fileID: 2100000, guid: c45836e3563eba44f9d8a05b23eb7c06, type: 2}
+    varName: _Shape-z
+    componentIndex: 0
+    isMat: 1
+    componentName: 
+    go: {fileID: 0}
+    isVector: 1
+    index: 2
+  speed: 2
+--- !u!114 &114799708114003466
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1375469875886046}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00fd88692d04c9142b76512f8ef9f52e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 0.5
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 1
+    m_RotationOrder: 0
+  animationTime: 4
+  startingPhase: 0
+  minValue: -5
+  maxValue: 5
+  field:
+    type: 0
+    types:
+    - System.Single
+    - System.Int32
+    - UnityEngine.Vector2
+    - UnityEngine.Vector3
+    - UnityEngine.Vector4
+    obj: {fileID: 4167627593524762}
+    varName: localEulerAngles-x
+    componentIndex: 0
+    isMat: 0
+    componentName: 
+    go: {fileID: 0}
+    isVector: 1
+    index: 0
+--- !u!114 &114804078113822198
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1101049188400300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9acf697fc842d44c84ba4d7f7a70c21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shader: {fileID: 4800000, guid: 98d00c2b55117cf439b7a950f8289519, type: 3}
+  intensity: 1
+  freq: 1
+  phase: 0
+--- !u!114 &114820979753526218
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1850345655299726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: 31447f98d0c2a0d4a8592ab2c09e0c51, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!114 &114823841189383452
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1101049188400300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f632eba4bffe9b4aa08ae0f457f91dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tex: {fileID: 0}
+  output:
+    type: {fileID: 0}
+    types:
+    - UnityEngine.Texture
+    - UnityEngine.Texture2D
+    - CampTexture
+    - UnityEngine.RenderTexture
+    obj: {fileID: 114248320836909914}
+    varName: flow
+    componentIndex: 0
+    isMat: 0
+    componentName: 
+    go: {fileID: 0}
+  globalShader: _AudioTex
+  height: 128
+  minimumValue: 0
+--- !u!114 &114826263833290010
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1412627613640152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7776d31ee31220042ba2abd57f17f0af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj:
+  - {fileID: 1851486202669986}
+  spawnType: 0
+  count: 300
+  debug: 0
+  all: []
+  distance: {x: 90, y: 50, z: 50}
+  center: 1
+  containWithinBounds: 1
+--- !u!124 &124206383835986736
+Behaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1101049188400300}
+  m_Enabled: 1
+--- !u!222 &222809351046071950
+CanvasRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1850345655299726}
+--- !u!223 &223621082930270250
+Canvas:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1244504479353962}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 2
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &224495271305516692
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1242642576374770}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4974066659158432}
+  - {fileID: 4007328557100964}
+  - {fileID: 4417969414523280}
+  m_Father: {fileID: 224546530486469534}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: 0, y: 1}
+  m_SizeDelta: {x: 1, y: 1}
+  m_Pivot: {x: 1, y: 1}
+--- !u!224 &224546530486469534
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1244504479353962}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 224643419320117846}
+  - {fileID: 224495271305516692}
+  - {fileID: 224982181212558658}
+  - {fileID: 224796670715206824}
+  m_Father: {fileID: 4651544202260136}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 10.5, y: 10.5}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!224 &224643419320117846
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1135639294059900}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4806633085541606}
+  - {fileID: 4778493088150744}
+  - {fileID: 4805633657048834}
+  - {fileID: 4910492609038372}
+  - {fileID: 4793154967066470}
+  - {fileID: 4705216597762724}
+  m_Father: {fileID: 224546530486469534}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 0, y: -1}
+  m_SizeDelta: {x: 1, y: 1}
+  m_Pivot: {x: 1, y: 1}
+--- !u!224 &224796670715206824
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1850345655299726}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 224546530486469534}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1, y: 1.5}
+  m_Pivot: {x: 1, y: 1}
+--- !u!224 &224982181212558658
+RectTransform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1034139644754922}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4463404337853654}
+  - {fileID: 4607117930824714}
+  - {fileID: 4604708830370908}
+  - {fileID: 4264016449586546}
+  m_Father: {fileID: 224546530486469534}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 1.75}
+  m_SizeDelta: {x: 1, y: 1}
+  m_Pivot: {x: 1, y: 1}
