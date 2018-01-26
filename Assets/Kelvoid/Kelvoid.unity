@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44658017, g: 0.49641502, b: 0.57482153, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -214,6 +214,8 @@ GameObject:
   - component: {fileID: 624069059}
   - component: {fileID: 624069060}
   - component: {fileID: 624069061}
+  - component: {fileID: 624069063}
+  - component: {fileID: 624069062}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -331,6 +333,58 @@ MonoBehaviour:
   yStrength: 0.2
   radialStrength: 1
   intensity: 1
+--- !u!114 &624069062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 624069054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af12226104bdc7041a09f84fa8e65273, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  extraFrame: 0
+  lastTexture: {fileID: 0}
+  textureOut:
+    type: {fileID: 0}
+    types:
+    - UnityEngine.Texture
+    - UnityEngine.Texture2D
+    - CampTexture
+    - UnityEngine.RenderTexture
+    obj: {fileID: 624069063}
+    varName: lastFrame
+    componentIndex: 0
+    isMat: 0
+    componentName: 
+    go: {fileID: 0}
+--- !u!114 &624069063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 624069054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dee162f34d3b904a8d167f8b45a8526, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  shader: {fileID: 4800000, guid: f229ff9b78883fd41b3689b146921a9d, type: 3}
+  merge: 1
+  lastFrame: {fileID: 0}
+  flow:
+    texture: {fileID: 0}
+    scaleTranslate: {x: 1, y: 1, z: 0, w: 0}
+    scaleTranslatePerSecond: {x: 0, y: 0, z: 0, w: 0}
+  offsetMinMax: {x: 0, y: 0, z: 0, w: 0}
+  fade: 0.9
+  radial: 1
+  angle: 0
+  anglePerSecond: 0
+  center: {fileID: 1258218296}
+  invertY: 0
+  flowST: {x: 1, y: 0, z: 0, w: 0}
 --- !u!1001 &662086138
 Prefab:
   m_ObjectHideFlags: 0
@@ -461,6 +515,26 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 114905804600457414, guid: 991eec13a29a10546be5f673db12a25a,
+        type: 2}
+      propertyPath: output.obj
+      value: 
+      objectReference: {fileID: 624069063}
+    - target: {fileID: 114905804600457414, guid: 991eec13a29a10546be5f673db12a25a,
+        type: 2}
+      propertyPath: output.componentName
+      value: Displacement, Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      objectReference: {fileID: 0}
+    - target: {fileID: 114905804600457414, guid: 991eec13a29a10546be5f673db12a25a,
+        type: 2}
+      propertyPath: output.go
+      value: 
+      objectReference: {fileID: 624069054}
+    - target: {fileID: 114905804600457414, guid: 991eec13a29a10546be5f673db12a25a,
+        type: 2}
+      propertyPath: output.varName
+      value: flow
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 991eec13a29a10546be5f673db12a25a, type: 2}
   m_IsPrefabParent: 0
@@ -472,6 +546,10 @@ GameObject:
 Animator:
   m_PrefabParentObject: {fileID: 9500000, guid: 95010f3a2d9d192428e67138cfcd4cff,
     type: 3}
+  m_PrefabInternal: {fileID: 1502794016}
+--- !u!4 &1258218296 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 400000, guid: 95010f3a2d9d192428e67138cfcd4cff, type: 3}
   m_PrefabInternal: {fileID: 1502794016}
 --- !u!1001 &1366391036
 Prefab:
@@ -544,7 +622,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1429546996}
   - component: {fileID: 1429546995}
-  - component: {fileID: 1429546997}
   m_Layer: 0
   m_Name: FFT
   m_TagString: Untagged
@@ -595,37 +672,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1429546997
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1429546994}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 83668c5343588364cbac63df44dc3dba, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fft: 3
-  min: 0
-  max: 0.1
-  field:
-    type: 0
-    types:
-    - System.Single
-    - System.Int32
-    - UnityEngine.Vector2
-    - UnityEngine.Vector3
-    - UnityEngine.Vector4
-    obj: {fileID: 624069058}
-    varName: position-x
-    componentIndex: 0
-    isMat: 0
-    componentName: UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0,
-      Culture=neutral, PublicKeyToken=null
-    go: {fileID: 624069054}
-    isVector: 0
-    index: 0
 --- !u!1 &1458512403
 GameObject:
   m_ObjectHideFlags: 0
@@ -2269,7 +2315,7 @@ MonoBehaviour:
         go: {fileID: 0}
     value: 0
     index: 11
-    open: 1
+    open: 0
   - manager: {fileID: 1458512405}
     friendlyName: 06 RAD STR
     signal:
@@ -2365,6 +2411,285 @@ MonoBehaviour:
         go: {fileID: 0}
     value: 0
     index: 12
+    open: 0
+  - manager: {fileID: 1458512405}
+    friendlyName: Offset min Max
+    signal:
+      channel: 7
+      status: 176
+    modules:
+    - type: 1
+      index: 0
+      hasCurve: 0
+      curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minmax: {x: -50, y: 50}
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      floatOutput:
+        type: 0
+        types:
+        - System.Single
+        - System.Int32
+        - UnityEngine.Vector2
+        - UnityEngine.Vector3
+        - UnityEngine.Vector4
+        obj: {fileID: 624069063}
+        varName: offsetMinMax-z
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+        isVector: 0
+        index: 0
+      vec3Output:
+        type: {x: 0, y: 0, z: 0}
+        types:
+        - UnityEngine.Vector3
+        obj: {fileID: 0}
+        varName: 
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+      colorOutput:
+        type: {r: 0, g: 0, b: 0, a: 0}
+        types:
+        - UnityEngine.Color
+        obj: {fileID: 0}
+        varName: 
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+    - type: 1
+      index: 1
+      hasCurve: 1
+      curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minmax: {x: -50, y: 50}
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      floatOutput:
+        type: 0
+        types:
+        - System.Single
+        - System.Int32
+        - UnityEngine.Vector2
+        - UnityEngine.Vector3
+        - UnityEngine.Vector4
+        obj: {fileID: 624069063}
+        varName: offsetMinMax-w
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+        isVector: 0
+        index: 0
+      vec3Output:
+        type: {x: 0, y: 0, z: 0}
+        types:
+        - UnityEngine.Vector3
+        obj: {fileID: 0}
+        varName: 
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+      colorOutput:
+        type: {r: 0, g: 0, b: 0, a: 0}
+        types:
+        - UnityEngine.Color
+        obj: {fileID: 0}
+        varName: 
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+    value: 0
+    index: 13
+    open: 0
+  - manager: {fileID: 1458512405}
+    friendlyName: FADE
+    signal:
+      channel: 8
+      status: 176
+    modules:
+    - type: 1
+      index: 0
+      hasCurve: 1
+      curve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 0
+          outSlope: 0
+          tangentMode: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      minmax: {x: 0, y: 0.95}
+      gradient:
+        serializedVersion: 2
+        key0: {r: 1, g: 1, b: 1, a: 1}
+        key1: {r: 1, g: 1, b: 1, a: 1}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      floatOutput:
+        type: 0
+        types:
+        - System.Single
+        - System.Int32
+        - UnityEngine.Vector2
+        - UnityEngine.Vector3
+        - UnityEngine.Vector4
+        obj: {fileID: 624069063}
+        varName: fade
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+        isVector: 0
+        index: 0
+      vec3Output:
+        type: {x: 0, y: 0, z: 0}
+        types:
+        - UnityEngine.Vector3
+        obj: {fileID: 0}
+        varName: 
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+      colorOutput:
+        type: {r: 0, g: 0, b: 0, a: 0}
+        types:
+        - UnityEngine.Color
+        obj: {fileID: 0}
+        varName: 
+        componentIndex: 0
+        isMat: 0
+        componentName: 
+        go: {fileID: 0}
+    value: 0
+    index: 14
     open: 1
 --- !u!4 &1458512406
 Transform:
