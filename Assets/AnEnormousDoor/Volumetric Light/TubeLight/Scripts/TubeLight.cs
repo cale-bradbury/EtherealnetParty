@@ -74,7 +74,7 @@ public class TubeLight : MonoBehaviour
 		// A similar problem here.
 		// m_SourceRenderer = gameObject.AddComponent<MeshRenderer>();
 		m_SourceRenderer = gameObject.GetComponent<MeshRenderer>();
-		//m_SourceRenderer.enabled = true;
+		m_SourceRenderer.enabled = true;
 
 		// We want it to be pickable in the scene view, so no HideAndDontSave
 		// Hmm, causes trouble

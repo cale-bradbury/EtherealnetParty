@@ -9,19 +9,19 @@ public class VolumetricFog : MonoBehaviour
 	Material m_DebugMaterial;
 	[HideInInspector]
 	public Shader m_DebugShader;
-	
+	[HideInInspector]
 	public Shader m_ShadowmapShader;
-	
+	[HideInInspector]
 	public ComputeShader m_InjectLightingAndDensity;
 	[HideInInspector]
 	public ComputeShader m_Scatter;
 	Material m_ApplyToOpaqueMaterial;
-	
+	[HideInInspector]
 	public Shader m_ApplyToOpaqueShader;
 	Material m_BlurShadowmapMaterial;
-	
+	[HideInInspector]
 	public Shader m_BlurShadowmapShader;
-	
+	[HideInInspector]
 	public Texture2D m_Noise;
 	[HideInInspector]
 	public bool m_Debug = false;
@@ -479,7 +479,7 @@ public class VolumetricFog : MonoBehaviour
 		SetUpFogEllipsoidBuffers(kernel);
 		SetUpDirectionalLight(kernel);
 	}
-    
+
 	void Scatter()
 	{
 		// Inject lighting and density
