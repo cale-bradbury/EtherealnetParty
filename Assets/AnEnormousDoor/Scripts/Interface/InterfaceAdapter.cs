@@ -5,14 +5,14 @@ using UnityEngine;
 public class InterfaceAdapter : MonoBehaviour
 {
 
-    [SerializeField, Range(0, 1)] protected float effectA = 0;
-    [SerializeField, Range(0, 1)] protected float effectB = 0;
-    [SerializeField, Range(0, 1)] protected float effectC = 0;
+    [SerializeField, Range(0, 1)] public float effectA = 0;
+    [SerializeField, Range(0, 1)] public float effectB = 0;
+    [SerializeField, Range(0, 1)] public float effectC = 0;
 
     private float effectD = 0;
 
-    [SerializeField, Range(0, 1)] protected float currentEffect = 0;
-    [SerializeField, Range(0, 1)] protected float currentEffectClass = 0;
+    [SerializeField, Range(0, 1)] public float currentEffect = 0;
+    [SerializeField, Range(0, 1)] public float currentEffectClass = 0;
 
     [SerializeField] protected List<InterfaceEffectClass> effectClasses;
 
